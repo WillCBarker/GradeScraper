@@ -55,8 +55,8 @@ def login():
     Calls duo_auth method to handle dual factor authentication when finished with login.
     """  
     click_element(find_element_Selector('#login-form > a > button'))
-    input_text(find_element_Selector('#username'), "wbarker2")
-    input_text(find_element_Selector('#password'), "Watchoutcrabgot8?")
+    input_text(find_element_Selector('#username'), "<YOUR USERNAME>")
+    input_text(find_element_Selector('#password'), "<YOUR PASSWORD>")
     click_element(find_element_Selector('body > div > div > div > div.section.login > form > div.form-element-wrapper.mt-4 > button'))
 
 def duo_authentication():
